@@ -48,7 +48,7 @@ the outline to your writing style, you will need to make sure each topic is addr
 Topics need to include:
 * Overview - Describe the algorithm, and common approaches to solving it. Address all three (iterative, recursive,
 and dynamic programming). **Include the BIG O analysis**. It can be a chart, but also describe how you
-got to it. Saying,  "I read about it", doesn't work. 
+got to it. Saying,  "I read about it", doesn't work. Instead, you need to look at the T(n) or other techniques to figure out Big O. 
 * Empirical Data & Discussion - Does the empirical data (running the code and getting timings) match with your analysis? 
 What are other factors affecting the run time? This is a good place to include charts/images.
 * Language Analysis - make sure to include why you picked the second language. What were some of the features you wanted
@@ -63,7 +63,7 @@ a great location to talk about things you tried/attempted, but opted not to be p
 * Conclusions / Reflection - Mainly a reflection / lessons learned, but ties up your final report with the key takeaway
 experiences. 
 
-> We don't have a specific format for references, but if you use references which most of you will have a least one make sure to include them! 
+> We ask that you use the ACM Format for references as you have used in your previous assignments. 
 
 ## 📝 Grading Rubric
 For this assignment, you will *submit* to canvas by providing a link to your github classroom repository (there is no gradescope submission). 
@@ -101,4 +101,4 @@ The grading will be manually graded following the rubric in canvas. The rubric i
 
 <!--- Link References -->
 [README.md]: ../README.md
-[Dynamic Programming Lab]: https://github.com/CS5008-khoury-lionelle/TeamActivities/tree/main/Module06
+[Dynamic Programming Lab]: https://github.com/CS5008-Khoury/Labs/tree/main/dynamic-programming-pascal 
