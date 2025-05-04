@@ -47,8 +47,7 @@ the outline to your writing style, you will need to make sure each topic is addr
 
 Topics need to include:
 * Overview - Describe the algorithm, and common approaches to solving it. Address all three (iterative, recursive,
-and dynamic programming). **Include the BIG O analysis**. It can be a chart, but also describe how you
-got to it. Saying,  "I read about it", doesn't work. Instead, you need to look at the T(n) or other techniques to figure out Big O. 
+and dynamic programming). **Include the BIG O analysis, along with the Pseudo Code for the three algorithms**. Saying,  "I read about it", doesn't work. Instead, you need to look at the T(n), recurrence tree, or other techniques to figure out Big O. Make it clear on how you came to the Big O for each algorithm.  
 * Empirical Data & Discussion - Does the empirical data (running the code and getting timings) match with your analysis? 
 What are other factors affecting the run time? This is a good place to include charts/images.
 * Language Analysis - make sure to include why you picked the second language. What were some of the features you wanted
@@ -63,7 +62,9 @@ a great location to talk about things you tried/attempted, but opted not to be p
 * Conclusions / Reflection - Mainly a reflection / lessons learned, but ties up your final report with the key takeaway
 experiences. 
 
-> We ask that you use the ACM Format for references as you have used in your previous assignments. 
+> [!NOTE]
+> 1. We ask that you use the ACM Format for references as you have used in your previous assignments.
+> 2. For the pseudo code, we aren't going to hold you to a set format, though we encourage you to follow on close the ones provided in class examples.  
 
 ## 📝 Grading Rubric
 For this assignment, you will *submit* to canvas by providing a link to your github classroom repository (there is no gradescope submission). 
@@ -81,7 +82,7 @@ The grading will be manually graded following the rubric in canvas. The rubric i
 | **Code Quality** | No code  | Code exists but is not documented or tested. | Code exists, is documented or tested by including test files for all the code. | Code is both documented and test files included. | Code is written correctly, based on the language norms including memory management and small concise functions. Tests included to show validity. |
 | **Writing / Grammar** | No report | Difficult to read. Report uses basic grammar, may have misspelling and obvious grammar mistakes. | Difficult to read due to poor sentence structures and wording choices. | Report uses grammar at a college level. | Report is easy to read, follows proper formatting guidelines, matches correct audience. | 
 | **Visuals** (chart, graph, math notation, etc) | No visuals | Student includes visuals, but they are distracting and not informative. | Has a visual but no reference to visual in the paper, and out of place. | Visuals are informative, and help clarify the report. | Visuals are informative, and described properly in the paper writing, adding to the overall report. 
-| **BigO** | No mention  | Provides minimal complexity discussion. | Provides BigO run-time for only part of the functions. | Provides Big O for the required functions/algorithms, including both space and time complexity. | Provides Big O, including space & time, also compares and contrasts in discussion using Big O as a means to compare performance. |
+| **BigO** | No mention  | Provides minimal complexity discussion. Provides Pseudo code for each of the three function types. | Provides BigO run-time for only part of the functions. | Provides Big O for the required functions/algorithms, including both space and time complexity. | Provides Big O, including space & time, also compares and contrasts in discussion using Big O as a means to compare performance.  |
 | **Empirical Analysis** | No mention | Provides minimal discussion. | Uses visuals to compare and contrast. | Details differences between algorithms based on run times. | Details differences apparent based on analysis, and provides concerns and potential limitations of the analysis. |
 | **Language Analysis** | No mention | Provides code snippets, and details a single language's implementation. | Provides code snippets for  both languages. | Compares and contrasts two languages, giving advantages and disadvantages. | Able to identify limitations for both that may affect analysis. Adjusts analysis based on limitations. | 
 
